@@ -16,6 +16,12 @@ div {
 div li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 30px;
+  border: #c1c1c1 2px solid;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 div li + li {
@@ -31,6 +37,7 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 5px;
 }
 
 div li button {
